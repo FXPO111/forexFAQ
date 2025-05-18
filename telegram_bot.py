@@ -9,7 +9,7 @@ import os
 import random
 import json  # импорт для работы с JSON
 
-TOKEN = os.getenv("TELEGRAM_TOKEN")
+TOKEN = os.getenv("BOT_TOKEN")
 IMAGE_DIR = "images"
 
 # Загрузка вопросов из JSON один раз при старте бота
